@@ -49,6 +49,7 @@ all_data <- rbind(all_test_data, all_train_data)
 # indicating the use of specifially the Mean()-function
 # and exclude the MeanFreq() and the gravityMean
 
+# This line creates af new dataframe with only the subject and activity column and alle the columns, that contain Mean() or Std() in the variable name
 meanMeasurements <- all_data[, c("subject", "activity", grep("[Mm]ean\\(\\)|[Ss]td\\(\\)", features$V2, value = TRUE))]
 
 # 3. Uses descriptive activity names to name the activities in the data set
@@ -93,4 +94,5 @@ dataColumns <- grep("[Mm]ean\\(\\)|[Ss]td\\(\\)", names(meanMeasurementsToLower)
 groupsMeasurementsAvg <- ddply(meanMeasurementsToLower, groupColumns, function(x) colMeans(x[dataColumns]))
 head(groupsMeasurementsAvg, 10)
 
+# I create a txt-file in the working dir, and I decide to avoid quotes from the character columns and variable names
 write.table(groupsMeasurementsAvg, file = "./mysubmissionWeek4GettigCleaningData.txt", row.names = FALSE, quote = FALSE) 
