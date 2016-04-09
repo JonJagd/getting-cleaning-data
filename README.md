@@ -35,7 +35,7 @@ The output file contains the following three grouping variables:
 
 3                 activityname: The decriptive name of the activity such as WALKING, SITTING...
 
-All 66 following data variables are calculated as a mean of all the values in the original column grouped by the subject and the activity:
+All 66 following variables come from the original file "features.txt" and they are described in the features_info.txt in the original UCI HAR Dataset. The changes that have been made are that all the characters have been converted to lower case and the data are now in the output file calculated as a mean of all the values in the original column grouped by the subject and the activity. The names are
 
 4            tbodyacc-mean()-x
 
