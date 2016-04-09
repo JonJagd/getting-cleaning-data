@@ -95,4 +95,4 @@ groupsMeasurementsAvg <- ddply(meanMeasurementsToLower, groupColumns, function(x
 head(groupsMeasurementsAvg, 10)
 
 # I create a txt-file in the working dir, and I decide to avoid quotes from the character columns and variable names
-write.table(groupsMeasurementsAvg, file = "./mysubmissionWeek4GettigCleaningData.txt", row.names = FALSE, quote = FALSE) 
+write.table(groupsMeasurementsAvg, file = "./mySubmissionWeek4GettigCleaningData.txt", row.names = FALSE, quote = FALSE) 
