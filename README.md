@@ -14,15 +14,10 @@ The output file mySubmissionWeek4GettigCleaningData.txt is a file based on all o
    subject activity       activityname tbodyacc-mean()-x tbodyacc-mean()-y tbodyacc-mean()-z tbodyacc-std()-x
 
 1        1        1            WALKING         0.2773308      -0.017383819        -0.1111481      -0.28374026
-
 2        1        2   WALKING_UPSTAIRS         0.2554617      -0.023953149        -0.0973020      -0.35470803
-
 3        1        3 WALKING_DOWNSTAIRS         0.2891883      -0.009918505        -0.1075662       0.03003534
-
 4        1        4            SITTING         0.2612376      -0.001308288        -0.1045442      -0.97722901
-
 5        1        5           STANDING         0.2789176      -0.016137590        -0.1106018      -0.99575990
-
 6        1        6             LAYING         0.2215982      -0.040513953        -0.1132036      -0.92805647
 
 
