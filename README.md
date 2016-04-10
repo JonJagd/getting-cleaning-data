@@ -1,7 +1,10 @@
 # getting-cleaning-data
-This repo contains files made as part of the work done in connection with the Coursera course Getting and Cleaning Data
+This repo contains files made as part of the work done in connection with the Coursera course Getting and Cleaning Data:
+
 1. README.md - Includes the codebook describing the variables and the construction of the data set
+
 2. The tidy data set - mySubmissionWeek4GettigCleaningData.txt
+
 3. run_analysis.R - the script that creates a tidy data set based on the files and file structure in the UCI HAR Dataset.
 
 # How the script works
